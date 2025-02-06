@@ -1,19 +1,42 @@
-x=input("dijite el numero: ")
-y=input("dijite el numero: ")
-n=input("dijite el numero: ")
+import math
 
-x=int(x)
-y=int(y)
-n=int(n)
+print("Calculadora.py")
+print("Operadores")
+y = int(input("Introducir el primer numero: "))
+x = int(input("Introducir el segundo numero: "))
 
-if n==1:
-    r=x+y 
-if n==2:
-    r=x-y
-if n==3:
-    r==x*y
-if n==4:
-    r==x/y
-if n==5: 
-    r==xŷ
-    if 
+
+print("Selecciona una operación:")
+print("1. Sumar")
+print("2. Restar")
+print("3. Multiplicar")
+print("4. Dividir")
+print("5. Potencia")
+print("6. logaritmo")
+
+instruccion = int(input("Con que operador quieres (?) "))
+
+
+if instruccion >= 7:
+    print("Valor no valido.")
+else:
+    print("Puedes Seguir usando el programa. ")
+
+if instruccion == 1:
+    y + x
+    print("El Valor es: ", x + y)
+
+if instruccion == 2:
+    y - x
+    print(x - y)
+if instruccion == 3:
+    y * x
+    print("El valor es: ", y * x)
+if instruccion == 4:
+    y / x
+    print("El valor es: ", y / x)
+if instruccion == 5:
+    y ** x 
+    print("El valor es: ", y ** x)
+
+if 
